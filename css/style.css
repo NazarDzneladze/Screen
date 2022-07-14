@@ -1,0 +1,208 @@
+html{
+	box-sizing: border-box;
+	height: 100%;
+}
+
+*,*::before,*::after{
+	box-sizing: inherit;
+}
+
+.main{
+	width: 1920px;
+	height: 960px;
+}
+
+.content{
+	background-color: #504242;
+	display: flex;
+	flex-wrap: wrap;
+	height: 960px;
+	width: 100%;
+}
+
+
+
+/* first block start */
+
+.header{
+	height: 100px;
+	width: 100%;
+	border: 1px solid red;
+
+}
+.wrapper{
+	width: 1720px;
+	margin: 0 auto;
+}
+
+
+
+.header-content{
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+
+.button-head{
+	background-color: #D31218;
+	width: 180px;
+	height: 50px;
+	border-radius: 4px;
+	font-family: 'Uni Neue';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	border: none;
+}
+
+.button-head:hover{
+	background: #AE060B;
+}
+
+.mod{
+	margin: 0 0 0 auto;
+}
+
+
+
+.logo-container{
+	margin:0 320px 0 540px ;
+}
+
+.telephone{
+	font-family: 'Uni Neue';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: white;
+}
+
+
+/* first block end */
+
+
+
+/* second block start */
+
+.aside-left{
+	width: 100px;
+	border: 1px solid blue;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.block-of-burger{
+	width: 100px;
+	height: 100px;
+	background-color: #D31218;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-of-burger:hover{
+	background-color: #AE060B;
+}
+
+.burger-container{
+	width: 40px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.line1, .line2, .line3{
+	width: 36px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+	background: #FFFFFF;
+}
+
+
+/* second block end */
+
+
+
+/* third block start */
+
+
+.main-block{
+	height: 760px;
+	width: 1720px;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid green;
+}
+
+.aside-right{
+	width: 100px;
+	border: 1px solid purple;
+}
+
+.footer{
+	width: 100%;
+	height: 100px;
+	border: 1px solid olivedrab;
+}
+
+.element{
+	width: calc(100% / 3);
+	height: calc(100% / 2);
+}
+
+.element>p{
+	font-family: 'Uni Neue';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+.main-block div:nth-child(1){
+	background-image: url(../img/street-lighting.jpg);
+}
+.main-block div:nth-child(2){
+	background-image: url(../img/Industrial-heating.jpg);
+}
+.main-block div:nth-child(3){
+background-image: url(../img/interior-lighting.jpg);
+}
+.main-block div:nth-child(4){
+background-image: url(../img/boiler-rooms.jpg);
+}
+.main-block div:nth-child(5){
+background-image: url(../img/generation.jpg);
+}
+
+.main-block div:nth-child(6){
+	background-image: url(../img/sources-of-energy.jpg);
+}
+
+.main-block div p:hover{
+	color: red;
+}
+
+.main-block img:hover{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #B1B4BB;
+	border-radius: 4px
+}
+
+
+
+
+
+
+
+/* third block end */
+
