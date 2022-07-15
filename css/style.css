@@ -13,7 +13,7 @@ html{
 }
 
 .content{
-	background-color: #504242;
+	background-color: #293133;
 	display: flex;
 	flex-wrap: wrap;
 	height: 960px;
@@ -27,8 +27,7 @@ html{
 .header{
 	height: 100px;
 	width: 100%;
-	border: 1px solid red;
-
+	/* border: 1px solid red; */
 }
 .wrapper{
 	width: 1720px;
@@ -90,11 +89,12 @@ html{
 
 .aside-left{
 	width: 100px;
-	border: 1px solid blue;
+	/* border: 1px solid blue; */
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .block-of-burger{
@@ -138,18 +138,18 @@ html{
 	width: 1720px;
 	display: flex;
 	flex-wrap: wrap;
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 
 .aside-right{
 	width: 100px;
-	border: 1px solid purple;
+	/* border: 1px solid purple; */
 }
 
 .footer{
 	width: 100%;
 	height: 100px;
-	border: 1px solid olivedrab;
+	/* border: 1px solid olivedrab; */
 }
 
 .element{
@@ -157,7 +157,7 @@ html{
 	height: calc(100% / 2);
 }
 
-.element>p{
+.main-text{
 	font-family: 'Uni Neue';
 	font-style: normal;
 	font-weight: 400;
@@ -165,10 +165,52 @@ html{
 	line-height: 40px;
 	letter-spacing: 0.02em;
 	color: #FFFFFF;
+	padding-top: 246px;
+	padding-left: 60px;
 }
 
-.main-block div:nth-child(1){
+.img-pos{
+margin-left: 270px;
+margin-top: 15px;
+}
+
+.pos-mod{
+margin-left: 345px;
+}
+
+.pos-mod2{
+	margin-left: 330px;
+}
+
+.element:first-child p{
+	width: 185px;
+	height: 80px;
+}
+
+.element:nth-child(2) p{
+	width: 276px;
+	height: 80px;
+}
+.element:nth-child(3) p{
+	width: 198px;
+	height: 80px;
+}
+.element:nth-child(4) p{
+	width: 189px;
+	height: 80px;
+}
+.element:nth-child(5) p{
+	width: 176px;
+	height: 80px;
+}
+.element:nth-child(6) p{
+	width: 317px;
+	height: 80px;
+}
+
+/* .main-block :nth-child(1){
 	background-image: url(../img/street-lighting.jpg);
+	
 }
 .main-block div:nth-child(2){
 	background-image: url(../img/Industrial-heating.jpg);
@@ -185,6 +227,30 @@ background-image: url(../img/generation.jpg);
 
 .main-block div:nth-child(6){
 	background-image: url(../img/sources-of-energy.jpg);
+} */
+
+.back1{
+	background-image: url(../img/street-lighting.jpg);
+}
+
+.back2{
+	background-image: url(../img/industrial-heating.jpg);
+}
+
+.back3{
+	background-image: url(../img/interior-lighting.jpg);
+}
+
+.back4{
+	background-image: url(../img/boiler-rooms.jpg);
+}
+
+.back5{
+	background-image: url(../img/generation.jpg);
+}
+
+.back6{
+	background-image: url(../img/sources-of-energy.jpg);
 }
 
 .main-block div p:hover{
@@ -198,11 +264,51 @@ background-image: url(../img/generation.jpg);
 	border-radius: 4px
 }
 
-
-
-
+.arrow{
+	background-position: right center;
+}
 
 
 
 /* third block end */
+
+
+/* fourth block start */
+
+
+.aside-right{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-nav ul li{
+	margin: 42px 0px;
+}
+
+
+.dot{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background-color: rgb(93, 95, 95);
+
+}
+
+.flex-nav ul li:first-child{
+	margin-top: 0px;
+}
+
+.flex-nav ul li:last-child{
+	margin-top: 0px;
+}
+
+.dot:hover{
+	background-color: #D31218;
+	cursor:pointer;
+}
+
+/* fourth block end */
+
 
